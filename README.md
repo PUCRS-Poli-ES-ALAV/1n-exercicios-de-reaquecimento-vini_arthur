@@ -17,8 +17,7 @@ nosso ambiente de trabalho (Git-Github-Github classroom).
          * A(m, n) = n + 1, se m = 0
          * A(m, n) = A(m − 1, 1), se m != 0 e n = 0
          * A(m, n) = A(m − 1, A(m, n − 1)), se m != 0 e n != 0.
-   1. A partir de um vetor de números inteiros, calcule a soma e o produto dos elementos
-do vetor.
+   1. A partir de um vetor de números inteiros, calcule a soma e o produto dos elementosdo vetor.
    1. Verifique se uma palavra é palíndromo (Ex. aba, abcba, xyzzyx).
    1. Dado um número n, gere todas as possíveis combinações com as n primeiras letras
 do alfabeto. Ex.: n = 3. Resposta: ABC, ACB, BAC, BCA, CAB, CBA.
