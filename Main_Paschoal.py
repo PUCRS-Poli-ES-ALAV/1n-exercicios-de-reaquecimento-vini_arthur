@@ -109,26 +109,3 @@ def sequencia(seq: list, i:int, n:int):
 
 # print(fibonacci(2, 3, 10))
 
-def combinacoes_alfabeto(n: int):
-    combinacao_total = combinacoes_totais(n)
-
-    alfabeto = [chr(i) for i in range(ord('a'), ord('a') + n)]
-
-    combinacoes = []
-
-    return combinacoes(alfabeto, combinacao_total, combinacoes)
-
-    
-def combinacoes(alfabeto: list, combinacao_total: int, combinacoes: list):
-    if combinacao_total == len(combinacoes):
-        return combinacoes
-    else:
-        ...
-
-
-
-def combinacoes_totais(n):
-    if n == 1:
-        return 1
-    else:
-        return n * combinacoes_totais(n-1)
